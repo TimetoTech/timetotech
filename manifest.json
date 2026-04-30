@@ -1,0 +1,15 @@
+{
+  "name": "TimeToTech",
+  "short_name": "TimeToTech",
+  "start_url": "/timetotech/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
