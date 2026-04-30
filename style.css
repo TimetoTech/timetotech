@@ -1,0 +1,73 @@
+body { font-family: Arial; margin: 0; padding: 0; }
+.header { background: #1e3a8a; color: white; padding: 15px; text-align: center; }
+.nav { background: #3b82f6; padding: 10px; text-align: center; }
+.nav a { color: white; margin: 0 20px; text-decoration: none; font-weight: bold; }
+.category-box { max-width: 1000px; margin: 20px auto; padding: 20px; }
+.category-box h2 { color: #1e3a8a; }
+.btn { background: #2563eb; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+
+/* Hero Banner Ka CSS - Yahi Naya Hai */
+.hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 60px 20px;
+  margin-top: 20px;
+}
+.hero-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.hero-logo {
+  text-align: center;
+  flex: 1;
+}
+.logo-circle {
+  width: 120px;
+  height: 120px;
+  background: white;
+  color: #667eea;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 auto 20px auto;
+}
+.hero-name {
+  font-size: 42px;
+  margin: 0;
+}
+.tagline {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.hero-details {
+  flex: 2;
+}
+.hero-details h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+.btn-primary, .btn-secondary {
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-primary {
+  background: white;
+  color: #667eea;
+}
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
