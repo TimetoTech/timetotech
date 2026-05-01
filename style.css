@@ -129,3 +129,102 @@ body { font-family: Arial; margin: 0; padding: 0; }
     width: 100%;
   }
 }
+/* WsCube Style Hero Section */
+.hero-wscube {
+  background: linear-gradient(135deg, #0a58ca 0%, #0d6efd 100%);
+  color: white;
+  padding: 80px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.hero-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-left h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-left p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.stat-box span {
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: block;
+}
+
+.stat-box p {
+  font-size: 0.9rem;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background: white;
+  color: #0a58ca;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.hero-right {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.hero-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Mobile ke liye */
+@media (max-width: 768px) {
+  .hero-wscube {
+    padding: 60px 5%;
+    text-align: center;
+  }
+  .hero-left h1 {
+    font-size: 2rem;
+  }
+  .hero-stats, .hero-buttons {
+    justify-content: center;
+  }
+}
