@@ -265,10 +265,27 @@ body { font-family: Arial; margin: 0; padding: 0; }
     min-height: 180px;
   }
 }
+/* Hero Right Section - Logo Ko Bada Karo */
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
 .hero-logo {
-  max-width: 100%;
-  max-height: 220px;
-  width: auto;
+  width: 100%;
+  max-width: 350px;    /* Yahan se size badhao - 350, 400, 450 try kar */
   height: auto;
   object-fit: contain;
+  border-radius: 12px;  /* Thoda gol corner - hatana ho to hata de */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3); /* Halki shadow mast lagegi */
 }
