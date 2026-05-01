@@ -21,8 +21,11 @@ body { font-family: Arial; margin: 0; padding: 0; }
   gap: 50px;
 }
 .hero-logo {
-  text-align: center;
-  flex: 1;
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 .logo-circle {
   width: 120px;
